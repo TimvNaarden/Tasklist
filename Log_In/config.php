@@ -1,8 +1,8 @@
 <?php 
     //Set the valuables
     $Server = "localhost";
-    $User = "TimAdmin";
-    $Pass = "TimAdmin";
+    $User = "Tim";
+    $Pass = "Welkom123@!@!";
     $Database = "Computers";
 
     //Create connection

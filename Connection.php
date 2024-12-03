@@ -1,7 +1,7 @@
 <?php
     $server = "localhost";
-    $user = "TimAdmin";
-    $pass = "TimAdmin";
+    $user = "Tim";
+    $pass = "Welkom123@!@!";
     $database = "Computers";
     // Create connection
     $conn = new mysqli($server, $user, $pass);
@@ -26,7 +26,7 @@
     }
 
     // Check if there is a usertable
-    $sql = "SHOW TABLES IN `Computers` WHERE `Tables_in_Computers` = 'Users'";
+    $sql = "SHOW TABLES IN `$database` WHERE `Tables_in_Computers` = 'Users'";
     $alter = FALSE;
     $result = $conn->query($sql);
     if ($result !== false) {

@@ -14,7 +14,7 @@
             $target_file = '../uploads/' . $filename;
             move_uploaded_file($_FILES['file']['tmp_name'][$i], $target_file);
             $filename1 = strtr($filename, $trans);
-            $link = "<a href=Download.php?file=". $filename1 .">". $filename . " </a>";
+            $link = "<a href=Download.php?tablename=".$table_name ."&file=". $filename1 .">". $filename . " </a>";
             $files = $files . " " . $link;
 
         }
